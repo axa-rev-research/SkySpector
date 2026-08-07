@@ -1,11 +1,13 @@
-<h1>
-  <img src="assets/skyspector_glass.png" alt="" height="34" valign="middle">
-  SkySpector: Query-Centric Multi-Positive Retrieval for Earth Observation
-</h1>
+# <img src="assets/skyspector_glass.png" alt="" height="34" valign="middle"> SkySpector: Query-Centric Multi-Positive Retrieval for Earth Observation
 
-Naël Ouerghemi, Ciprian Tomoiagă, Thibault Laugel, Marcin Detyniecki
+[![TerraBytes II](https://img.shields.io/badge/TerraBytes%20II-ECCV%202026-356077.svg)](https://terrabytes-workshop.github.io/)
+![Benchmark](https://img.shields.io/badge/Benchmark-Coming%20Soon-8a94a6.svg)
 
-Accepted at **TerraBytes II @ ECCV 2026**.
+**Naël Ouerghemi**<sup>1</sup> · **Ciprian Tomoiagă**<sup>2</sup> · **Thibault Laugel**<sup>2,3</sup> · **Marcin Detyniecki**<sup>2,3,4</sup>
+
+<sup>1</sup> EPFL · <sup>2</sup> AXA · <sup>3</sup> TRAIL, LIP6, Sorbonne Université · <sup>4</sup> IBS PAN
+
+---
 
 <p align="center">
   <img src="assets/skyspector_teaser_v3.png" alt="A caption benchmark rewards retrieving one source image; a SkySpector query marks every scene that satisfies the intent" width="900">
@@ -16,6 +18,8 @@ Accepted at **TerraBytes II @ ECCV 2026**.
   several related scenes are in the pool. SkySpector instead poses an analyst-style query,
   where every scene satisfying the intent is relevant, making retrieval multi-positive.</em>
 </p>
+
+---
 
 ## Abstract
 
@@ -42,12 +46,18 @@ is insufficient for real-world tasks: the best first-stage full-pool score is
 38.1 NDCG@10, while a simple multimodal-LLM reranking baseline recovers +13.9 NDCG@10
 within the top-50 candidate pool.
 
+---
+
 ## Status
 
 The benchmark, evaluation code and leaderboard are being prepared for release.
 This repository will host them.
 
+---
+
 ## Citation
+
+If you find this work useful, please cite:
 
 ```bibtex
 @inproceedings{ouerghemi2026skyspector,
@@ -57,6 +67,8 @@ This repository will host them.
   year      = {2026}
 }
 ```
+
+---
 
 ## Contact
 
