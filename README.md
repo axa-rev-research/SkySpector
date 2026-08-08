@@ -7,6 +7,8 @@
 
 <sup>1</sup> EPFL · <sup>2</sup> AXA · <sup>3</sup> TRAIL, LIP6, Sorbonne Université · <sup>4</sup> IBS PAN
 
+<img src="assets/affiliations.png" alt="EPFL, AXA, Sorbonne Université, Polish Academy of Sciences" height="76">
+
 ---
 
 <p align="center">
